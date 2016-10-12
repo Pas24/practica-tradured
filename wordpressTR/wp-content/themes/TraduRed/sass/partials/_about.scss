@@ -1,0 +1,33 @@
+// About Page
+  
+.floatingBlock {
+  @include margins-widths(0 48px , 40%);
+  margin: 0 48px; 
+  float: left;
+  width: 40%;
+}
+
+.objContent {
+  margin-bottom: 48px; 
+}
+
+.teamMemberTitle {
+  margin-bottom: 48px; 
+  text-align: center;
+}
+
+.memberBox {
+  @include margins-widths(0 12px 48px 12px, 30%);	
+  float: left;
+  text-align: center;
+ 
+
+  img {
+  display: inline-block;
+  margin-bottom: 12px; 
+	}
+
+  p {
+      font: 18px $text; 
+	}
+}

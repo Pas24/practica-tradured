@@ -1,0 +1,95 @@
+//Layout
+
+.wrapper {
+	@include wrappers(0 auto, 1200px, 80%);
+}
+
+.fullWrapper {
+  background-color: #fff; 
+  width: 100%;
+
+}
+
+.minWrapper {
+	@include wrappers(0 auto, 1000px, 60%);
+}
+
+//Header
+.header {
+  
+  background-color: $rojo; 
+  width: 100%;
+}
+
+.logo {
+  position: absolute;
+  z-index: 3; 
+}
+
+.nav {
+
+		float: right; 
+
+	a {
+	  color: #fff;
+	  display: inline-block;
+	  font: 24px $tittle;
+	  padding: 10px; 
+	  text-decoration: none;
+	 }
+
+	li {
+	  display: inline-block;
+	  list-style: none;
+	  margin: 0 0 0 24px; 
+	}
+
+	a:hover {
+	  background-color: #fff;
+	  color: $rojo; 
+	}
+
+}
+
+// Footer
+
+#footer {
+  background-color: #000;
+  color: $gray;
+  padding-top: 12px; 
+}
+
+.navSec {
+  float: left;
+  padding: 24px 0; 
+
+	li {
+	  border-left: 1px solid $gray; 
+	  display: inline-block;
+	  list-style: none;
+	  padding: 0 10px;
+	}
+
+	li:first-child {
+  		border-left: none; 
+	}
+
+	a {
+	  color: $gray;
+	  font: $text;
+	  text-decoration: none; 
+	}
+
+	a:hover {
+  		text-decoration: underline; 
+	}
+}
+
+.socialMedia {
+  float: right;
+  padding-top: 15px; 
+
+  img {
+  margin-left: 24px; 
+	}
+}

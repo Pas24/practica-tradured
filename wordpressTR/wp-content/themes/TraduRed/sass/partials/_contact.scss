@@ -1,0 +1,17 @@
+//Contacto
+   
+.contactBox {
+  float: left; 
+  width: 75%;
+}
+
+.contactInfo {
+  background-color: $gray;
+  border-radius: 15px; 
+  float: left;
+  padding: 24px;
+
+	span {
+  		display: block; 
+	}
+}

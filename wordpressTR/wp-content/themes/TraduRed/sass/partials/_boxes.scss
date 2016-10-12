@@ -1,0 +1,28 @@
+//Boxes
+.fullWidth {
+  @include margins-widths(0 0 76px 0, 100%);
+  background: url("img/pattern.png") repeat; 
+  padding: 72px 0;
+
+}
+
+.paragraphBox {
+  @include margins-widths(0 0 72px 0, 100%);
+  padding: 24px 0; 
+}
+
+.yellowBox {
+
+background-color: $amarillo; 
+
+}
+
+.cyanBox {
+  background-color: $cyan;
+  color: #fff;
+}
+
+.lastBox {
+  margin-bottom: 0;
+  padding-bottom: 72px; 
+}

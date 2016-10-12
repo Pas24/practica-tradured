@@ -1,0 +1,19 @@
+//Buttons
+
+.mainButton {
+  border: 5px solid;
+  border-radius: 30px;
+  background-color: #fff;
+  border-color:$color-buttons;
+  color:$color-buttons;
+  cursor: pointer;
+  display: inline-block; 
+  font: 24px $tittle;
+  padding: 5px 15px;
+  text-decoration: none;
+}
+
+.mainButton:hover {
+  background-color:$color-buttons;
+  color: #fff; 
+}

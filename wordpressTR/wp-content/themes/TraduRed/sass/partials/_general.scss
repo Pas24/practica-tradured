@@ -1,0 +1,51 @@
+//General
+
+* {
+  margin: 0px;
+  padding: 0px; 
+}
+
+body {
+  background-color: #000;
+  font: $text;
+  line-height: 24px; 
+}
+
+h2 {
+  font: 40px $tittle;
+  line-height: 1.25;
+  margin-bottom: 24px; 
+}
+
+h3 {
+  font: 34px $tittle;
+  color: $rojo ;
+  margin-bottom: 24px; 
+}
+
+h4 {
+  font: 20px $tittle; 
+}
+
+li {
+  margin-bottom: 12px; 
+}
+
+p {
+  line-height: 1.5; 
+}
+
+//  Helper Classes 
+.clearfix:after {
+  content: " ";
+  clear: both;
+  display: block;
+  font-size: 0;
+  height: 0; 
+  visibility: hidden;
+
+}
+
+.clearfix {
+  display: block; 
+}
